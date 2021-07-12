@@ -1,0 +1,17 @@
+s="madam is waling on the road"
+s=s+" "
+word=""
+reword=""
+for(l of s){
+if(l!=" "){
+word=word+l
+revword=l+revword
+}
+else{
+if(word== revword){
+console.log(word)
+}
+word=""
+revword=""
+}
+}
